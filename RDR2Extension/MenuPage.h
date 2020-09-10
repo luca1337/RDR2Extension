@@ -1,0 +1,11 @@
+#pragma once
+
+enum class MenuPage
+{
+	MAIN_PAGE,
+	PLAYER_PAGE,
+	WEATHER_PAGE,
+	WEAPON_PAGE,
+	WORLD_PAGE,
+	MENU_SETTINGS
+};

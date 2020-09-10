@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{5a181cee-db0a-4e76-a2b9-0bf04830dc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Keyboard">
+      <UniqueIdentifier>{487f4f60-a518-4641-85c2-e8d977be36a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu\Base">
+      <UniqueIdentifier>{1cc8fcf3-e4ab-4d12-94c2-9eb7f01ca25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Keyboard">
+      <UniqueIdentifier>{1dd3f7e9-0eb3-45b1-819a-429a995adcfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripting">
+      <UniqueIdentifier>{ff2840a2-a5a9-4078-9aa6-6813e8496152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{2141303f-0bfd-4b59-86c1-6df1fa990e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{54a7d980-9b56-4af4-8d28-401edd55079e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Base">
+      <UniqueIdentifier>{3bb27f96-764a-4733-8fe1-11365df0769a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItemBase.cpp">
+      <Filter>Source Files\Menu\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPageBase.cpp">
+      <Filter>Source Files\Menu\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>Source Files\Menu\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSettingsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHashKeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemBase.h">
+      <Filter>Header Files\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPage.h">
+      <Filter>Header Files\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPageBase.h">
+      <Filter>Header Files\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>Header Files\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemSwitchPage.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHashKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSettingsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
